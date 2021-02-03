@@ -1,0 +1,26 @@
+<students>
+	<student sr="23" no="">
+		<name>
+			<fistname>John</fistname>
+			<lastname>Carter</lastname>
+		</name>
+		<admission_date>25/12/2015</admission_date>
+	</student>
+
+	student sr="29" no="">
+		<name>
+			<fistname>Bob</fistname>
+			<lastname>Marshal</lastname>
+		</name>
+		<admission_date>13/01/1999</admission_date>
+        </student>
+
+	student sr="35" no="">
+		<name>
+			<fistname>Clark</fistname>
+			<lastname>Kent</lastname>
+		</name>
+		<admission_date>17/06/2005</admission_date>
+        </student>
+
+</students>
