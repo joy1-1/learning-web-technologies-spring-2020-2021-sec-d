@@ -1,17 +1,29 @@
+<?php
+	
+	
+	if(isset($_POST['submit']))
+	{
+		$email 		= $_POST['email'];
+		if($email == ""){
+			echo "null submission";
+		}else{
+			echo "email=".$email;
+		}
+	}
+?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Email Input</title>
+	<title>Email input</title>
 </head>
 <body>
-	<form method="post" action="#">
+
+	<form method="POST" action="">
 		<fieldset>
 			<legend>Email</legend>
-			Email: <input type="text" name="myname" value="<?php if(isset($_POST['myname'])){ echo $_POST['myname'];} ?>"> <br>
-			
-			<input type="submit" name="submit" value="Submit">
+			Email: <input type="text" name="email" value="">  <br>
+				<input type="submit" name="submit" value="Submit">
 		</fieldset>
 	</form>
-	
 </body>
 </html>
