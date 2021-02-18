@@ -1,48 +1,29 @@
+<?php
+	
+	
+	if(isset($_POST['submit']))
+	{
+		$date		= $_POST['date'];
+		if($date == ""){
+			echo "null submission";
+		}else{
+			echo "Date=".$date;
+		}
+	}
+?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Email Input</title>
+	<title>Date of Birth input</title>
 </head>
 <body>
-	<form method="post" action="#">
+
+	<form method="POST" action="">
 		<fieldset>
-				<legend><b>Date Of Birth</b></legend>
-					<table>
-						<tr>
-							<td>
-								<i>dd</i>
-							</td>
-							<td>
-								<i>mm</i>
-							</td>
-							<td>
-								<i>yy</i>
-							</td>
-						</tr>
-
-						<tr>
-							<td>
-								<input type="text" name="day" value="<?php if(isset($_POST['day'])){ echo $_POST['day'];} ?>">/
-							</td>
-							<td>
-								<input type="text" name="mn" value="<?php if(isset($_POST['mn'])){ echo $_POST['mn'];} ?>">/
-							</td>
-							<td>
-								<input type="text" name="yr" value="<?php if(isset($_POST['yr'])){ echo $_POST['yr'];} ?>">/
-							</td>
-							
-						</tr>
-
-					</table>
-					<hr width="70%" align="left">
-					<input type="Submit" name="submit">
-						
-						
-			</fieldset>
-
-
-
+			<legend>Date of Birth</legend>
+		      <input type="date" name="date" value="">  <br>
+				<input type="submit" name="submit" value="Submit">
+		</fieldset>
 	</form>
-	
 </body>
 </html>
