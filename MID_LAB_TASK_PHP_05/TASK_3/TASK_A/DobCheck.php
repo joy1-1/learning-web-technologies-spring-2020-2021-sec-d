@@ -1,6 +1,5 @@
 <?php
 
-	
 	if(isset($_POST['submit'])){
 
 		$day 		= $_POST['day'];
