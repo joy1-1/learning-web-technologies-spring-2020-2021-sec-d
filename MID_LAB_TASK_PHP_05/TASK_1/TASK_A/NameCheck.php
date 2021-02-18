@@ -4,7 +4,6 @@
 
 		$name 		= $_POST['myname'];
 		
-
 		if($name == "" ){
 			echo "null submission...";
 		}else{
