@@ -55,8 +55,7 @@
 					</table>
 					<hr width="70%" align="left">
 					<input type="Submit" name="submit">
-						
-						
+								
 			</fieldset>
 
 	</form>
