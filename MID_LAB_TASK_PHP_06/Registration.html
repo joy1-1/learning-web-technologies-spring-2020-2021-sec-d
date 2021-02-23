@@ -1,0 +1,67 @@
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+	<form method="post" action="checkregister.php">
+		<fieldset style="width:1000px">
+			<legend>Registration</legend>
+			Name: <input type="text" name="myname" value=""> <br>
+      <hr align ="left" width="100%">
+      Email: <input type="email" name="email" value=""> <br>
+      <hr align ="left" width="100%">
+      Username: <input type="name" name="username" value=""> <br>
+      <hr align ="left" width="100%">
+      Password: <input hr align="right" width ="100% "type="password" name="password" value=""> <br>
+      <hr align ="left" width="100%">
+      Confirm Password: <input hr align="right" width ="100% "type="password" name="conpass" value=""> <br>
+      <hr align ="left" width="100%">
+      <fieldset>
+			<legend>Gender</legend>
+			 <input type="radio" name="gender"> male
+  		        <input type="radio" name="gender"> female
+  		        <input type="radio" name="gender"> other <br>
+
+        </fieldset>
+        <hr align ="left" width="100%">
+
+
+		<fieldset>
+				<legend>Date Of Birth</legend>
+					<table>
+						<tr>
+							<td>dd</td>
+
+
+							<td>mm</td>
+
+
+							<td>yy</td>
+						</tr>
+
+						<tr>
+							<td>
+								<input type="number" name="day" value="">/
+							</td>
+							<td>
+								<input type="number" name="month" value="">/
+							</td>
+							<td>
+								<input type="year" name="year" value="">
+							</td>
+
+						</tr>
+
+					</table>
+
+
+			</fieldset>
+          <hr align ="left" width="100%">
+			<input type="submit" name="submit" >
+      	<input type="reset" name="reset" >
+
+		</fieldset>
+	</form>
+
+</body>
+</html>
