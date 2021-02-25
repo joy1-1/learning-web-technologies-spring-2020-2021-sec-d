@@ -1,0 +1,120 @@
+<html>
+
+<head>
+	<title>Edit Profile</title>
+</head>
+
+<body>
+	<table border="1" width="100%">
+		<tr>
+			<td>
+				<img src="logo.png" alt="logo" width="100px" height="50px">
+			</td>
+
+			<td align="right">
+				Logged in as Bob | Logout<a href="#"> </a> 
+			</td>
+		</tr>
+
+		<tr style="height:100px;">
+			<td>
+				<br>
+				<b>Account</b>
+				<hr>
+				<ul>
+					<li><a href="dash.html">Dashboard</a></li>
+					<li><a href="viewprofile.html">View Profile</a></li>
+					<li><a href="editprofile.html">Edit Profile</a></li>
+					<li><a href="profilepicture.html">Change Profile Picture</a></li>
+					<li><a href="change.html">Change Password</a></li>
+					<li><a href="logout.html">Logout</a></li>
+				</ul>
+			</td>
+
+			<td align="center">
+				<form method="POST" action="#">
+					<fieldset style="width:100px;">
+						<legend><b>EDIT PROFILE</b></legend>
+							<table>
+								<tr>
+									<td>
+										Name
+									</td>
+									<td>
+										<input type="text" name="name" value="">
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="2">
+										<hr>
+									</td>
+								</tr>
+
+								<tr>
+									<td>
+										Email
+									</td>
+									<td>
+										<input type="email" name="email" value="">
+
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="2">
+										<hr>
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="2">
+										<fieldset style="width:300px;">
+										<legend>Gender</legend>
+											<input type="radio" name="gender" value="male"> Male
+											<input type="radio" name="gender" value="female"> Female
+											<input type="radio" name="gender" value="other"> Other
+										</fieldset>
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="2">
+										<hr>
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="2">
+										<fieldset style="width:300px;">
+										<legend>Date of Birth</legend>
+										<input type="number" name="dd" style="width:40px;" value=""> / <input type="number" name="mm" style="width:40px;" value="">	/ <input type="number" name="yyyy" style="width:60px;" value=""> <i>(dd/mm/yyyy)</i>
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="2">
+										<hr>
+									</td>
+								</tr>
+
+								<tr>
+									<td colspan="2">
+										<input type="submit" name="submit" value="Submit">
+									</td>
+								</tr>
+							</table>
+						</fieldset>
+				</form>
+			</td>
+		</tr>
+
+		<tr>
+			<td colspan="2" align="center">
+				Copyright  2017
+			</td>
+		</tr>
+	</table>
+</body>
+
+</html>
